@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    background: #FC466B;
+    background: linear-gradient(to left, #3F5EFB, #FC466B);
+    font-family: 'Gayathri', sans-serif;
+}
+
+
+.container {
+    margin: 100px auto 0px auto;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+}
+
+
+input[type="text"], input[type="password"]{
+    width: 350px;
+    height: 40px;
+    font-size: 19px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    margin-bottom: 25px;
+    padding-left: 45px;
+}
+
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(141, 141, 141);
+    font-size: 18px;
+    padding-left: 80px;
+}
+
+
+p {
+    display: inline;
+    color: whitesmoke;
+}
+
+
+ 
+.username::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 25px;
+    padding: 7px 0px 0px 7px;
+    color: #1f455e;   
+  }
+
+
+  .password::before{
+    font-family: "FontAwesome";
+    content: "\f023";
+    position: absolute;
+    font-size: 25px;
+    padding: 7px 0px 0px 7px;
+    color: #1f455e; 
+  }
+
+  button{
+    margin-top: 40px;
+    width: 250px;
+    height: 50px;
+    background: rgb(39, 40, 41) ;
+    border-color: rgb(39, 40, 41) ;
+    border: none;
+    color: white;
+    font-size: 20px;
+    opacity: 0.8;
+    
+  }
